@@ -1,0 +1,47 @@
+.navbar{
+    height: 10vh;
+    color: #EC1E69;
+}
+.nav-link{
+    color: #EC1E69;
+}
+.active{
+    background-color: #EC1E69;
+    color: white;
+    border-radius: 10px;
+}
+.hero{
+    min-height: 80vh;
+    background-color: #FFEFF5;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.row-button{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.button a{
+    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 30px 8px 30px;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: #EC1E69;
+}
+.button a:hover{
+    background-color: #EC1E69;
+    color: white;
+}
+.card{
+    width: 600px;
+    margin: auto;
+    border: 1px solid red;
+    box-shadow: #FFEFF5;
+    text-align: center;
+    padding: 18px;
+}
